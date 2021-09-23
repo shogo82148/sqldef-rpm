@@ -54,16 +54,16 @@ rm -rf %{buildroot}
 * Thu Sep 23 2021 Ichinose Shogo <shogo82148@gmail.com>
 - bump v0.11.4
 
-* Sun Sep 26 2021 Ichnose Shogo <shogo82148@gmail.com>
+* Sun Sep 19 2021 Ichnose Shogo <shogo82148@gmail.com>
 - bump v0.11.3
 
-* Sun Sep 26 2021 Ichinose Shogo <shogo82148@gmail.com>
+* Sun Sep 19 2021 Ichinose Shogo <shogo82148@gmail.com>
 - bump v0.11.2
 
-* Sat Sep 25 2021 Ichinose Shogo <shogo82148@gmail.com>
+* Sat Sep 18 2021 Ichinose Shogo <shogo82148@gmail.com>
 - bump v0.11.1
 
-* Sat Sep 25 2021 Ichinose Shogo <shogo82148@gmail.com>
+* Sat Sep 18 2021 Ichinose Shogo <shogo82148@gmail.com>
 - bump v0.11.0
 
 * Sun Jul 18 2021 Ichinose Shogo <shogo82148@gmail.com>
