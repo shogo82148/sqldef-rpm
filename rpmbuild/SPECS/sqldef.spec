@@ -52,6 +52,9 @@ rm -rf %{buildroot}
 
 %changelog
 * Sun Mar 06 2022 Ichinose Shogo <shogo82148@gmail.com>
+- bump v0.11.40
+
+* Sun Mar 06 2022 Ichinose Shogo <shogo82148@gmail.com>
 - bump v0.11.39
 
 * Sun Feb 20 2022 Ichinose Shogo <shogo82148@gmail.com>
