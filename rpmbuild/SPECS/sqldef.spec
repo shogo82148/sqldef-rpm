@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 %{_bindir}/sqlite3def
 
 %changelog
+* Sat Mar 12 2022 Ichinose Shogo <shogo82148@gmail.com>
+- bump v0.11.41
+
 * Sun Mar 06 2022 Ichinose Shogo <shogo82148@gmail.com>
 - bump v0.11.40
 
