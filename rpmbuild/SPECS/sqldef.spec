@@ -51,7 +51,7 @@ rm -rf %{buildroot}
 %{_bindir}/sqlite3def
 
 %changelog
-* Tue June 07 2022 ICHINOSE Shogo <shogo82148@gmail.com>
+* Tue Jun 07 2022 ICHINOSE Shogo <shogo82148@gmail.com>
 - add AlmaLinux 9 distribution
 
 * Sat May 21 2022 ICHINOSE Shogo <shogo82148@gmail.com>
