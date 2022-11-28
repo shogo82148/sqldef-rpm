@@ -13,10 +13,10 @@ Name: sqldef
 Version: 0.14.4
 Release: 1
 URL: https://github.com/k0kubun/sqldef
-Source0: https://github.com/itamae-kitchen/mitamae/releases/download/v%{version}/mssqldef_linux_%{goarch}.tar.gz
-Source1: https://github.com/itamae-kitchen/mitamae/releases/download/v%{version}/mysqldef_linux_%{goarch}.tar.gz
-Source2: https://github.com/itamae-kitchen/mitamae/releases/download/v%{version}/psqldef_linux_%{goarch}.tar.gz
-Source3: https://github.com/itamae-kitchen/mitamae/releases/download/v%{version}/sqlite3def_linux_%{goarch}.tar.gz
+Source0: https://github.com/k0kubun/sqldef/releases/download/v%{version}/mssqldef_linux_%{goarch}.tar.gz
+Source1: https://github.com/k0kubun/sqldef/releases/download/v%{version}/mysqldef_linux_%{goarch}.tar.gz
+Source2: https://github.com/k0kubun/sqldef/releases/download/v%{version}/psqldef_linux_%{goarch}.tar.gz
+Source3: https://github.com/k0kubun/sqldef/releases/download/v%{version}/sqlite3def_linux_%{goarch}.tar.gz
 License: MIT
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
