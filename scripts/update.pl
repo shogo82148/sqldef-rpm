@@ -5,6 +5,7 @@ use utf8;
 use strict;
 use FindBin;
 use POSIX qw(strftime locale_h);
+use Actions::Core;
 
 sub slurp($file) {
     open my $fh, "<", $file or die "failed to open $file: $!";
@@ -29,6 +30,7 @@ say STDERR "current version: $current_version";
 my $latest_version = `gh release view --repo k0kubun/sqldef --template '{{ .name }}' --json name`;
 $latest_version =~ s/^v//;
 say STDERR "latest version: $latest_version";
+set_output('latest-version', $latest_version);
 
 if ($current_version eq $latest_version) {
     say STDERR "already up-to-date";
