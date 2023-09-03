@@ -46,7 +46,7 @@ spew("$FindBin::Bin/build.sh", $build_sh);
 # update sqldef.spec
 my $spec = slurp("$FindBin::Bin/../rpmbuild/SPECS/sqldef.spec");
 $spec =~ s/Version:\s+\d+\.\d+\.\d+/Version: $latest_version/;
-$spec =~ s/Release:\s+\d+/Release 1/;
+$spec =~ s/Release:\s+\d+/Release: 1/;
 setlocale(LC_TIME, "C");
 my $date = strftime "%a %b %d %Y", localtime;
 my $changelog = <<"END";
