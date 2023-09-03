@@ -42,7 +42,7 @@ sub upload {
 }
 
 upload "amazonlinux/2";
-upload "amazonlinux/2022";
+upload "amazonlinux/2023";
 upload "centos/7";
 upload "centos/8";
 upload "almalinux/8";
