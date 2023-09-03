@@ -14,6 +14,10 @@ aarch64: aarch64.build
 upload:
 	./scripts/upload.pl
 
+.PHONY: update
+update:
+	./scripts/update.pl
+
 .PHONY: test
 test: test-x86_64 test-aarch64
 
