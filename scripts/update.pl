@@ -27,7 +27,7 @@ $build_sh =~ /VERSION=(\d+\.\d+\.\d+)/ or die "failed to parse VERSION from buil
 my $current_version = $1;
 say STDERR "current version: $current_version";
 
-my $latest_version = `gh release view --repo k0kubun/sqldef --template '{{ .name }}' --json name`;
+my $latest_version = `gh release view --repo sqldef/sqldef --template '{{ .name }}' --json name`;
 $latest_version =~ s/^v//;
 say STDERR "latest version: $latest_version";
 set_output('latest-version', $latest_version);
