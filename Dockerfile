@@ -1,4 +1,4 @@
-FROM centos:7
+FROM almalinux:8
 ENV HOME /
 RUN yum update -y
 RUN yum install -y rpm-build redhat-rpm-config rpmdevtools
