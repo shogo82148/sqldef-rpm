@@ -10,7 +10,7 @@
 
 Summary: Idempotent MySQL/PostgreSQL schema management by SQL
 Name: sqldef
-Version: 2.4.3
+Version: 2.4.8
 Release: 1
 URL: https://github.com/sqldef/sqldef
 Source0: https://github.com/sqldef/sqldef/releases/download/v%{version}/mssqldef_linux_%{goarch}.tar.gz
@@ -51,6 +51,9 @@ rm -rf %{buildroot}
 %{_bindir}/sqlite3def
 
 %changelog
+* Sun Sep 21 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 2.4.8-1
+- bump v2.4.8
+
 * Mon Sep 15 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 2.4.3-1
 - bump v2.4.3
 
