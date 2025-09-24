@@ -54,9 +54,6 @@ rm -rf %{buildroot}
 * Mon Sep 22 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 2.5.0-1
 - bump v2.5.0
 
-* Mon Sep 15 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 2.4.3-1
-- bump v2.4.3
-
 * Sun Sep 14 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 2.4.2-1
 - bump v2.4.2
 
