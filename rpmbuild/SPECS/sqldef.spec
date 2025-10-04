@@ -54,6 +54,9 @@ rm -rf %{buildroot}
 * Fri Oct 03 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 3.1.10-1
 - bump v3.1.10
 
+* Thu Oct 02 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 3.1.9-1
+- bump v3.1.9
+
 * Wed Oct 01 2025 ICHINOSE Shogo <shogo82148@gmail.com> - 3.1.7-1
 - bump v3.1.7
 
