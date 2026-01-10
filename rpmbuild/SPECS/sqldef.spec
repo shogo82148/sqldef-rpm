@@ -54,6 +54,9 @@ rm -rf %{buildroot}
 * Wed Jan 07 2026 ICHINOSE Shogo <shogo82148@gmail.com> - 3.9.3-1
 - bump v3.9.3
 
+* Tue Jan 06 2026 ICHINOSE Shogo <shogo82148@gmail.com> - 3.9.2-1
+- bump v3.9.2
+
 * Sun Jan 04 2026 ICHINOSE Shogo <shogo82148@gmail.com> - 3.9.1-1
 - bump v3.9.1
 
