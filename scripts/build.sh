@@ -5,7 +5,7 @@ set -exu
 ROOT=$(cd "$(dirname "$0")/../" && pwd)
 PLATFORM=$1
 
-VERSION=3.9.6
+VERSION=3.9.7
 IMAGE_NAME=sqldef-package-$PLATFORM
 TARGZ_FILE=sqldef.tar.gz
 
