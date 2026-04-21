@@ -42,8 +42,6 @@ sub upload {
 }
 
 upload "amazonlinux/2023";
-upload "centos/7";
-upload "centos/8";
 upload "almalinux/8";
 upload "almalinux/9";
 upload "rockylinux/8";
