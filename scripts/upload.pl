@@ -20,7 +20,7 @@ sub execute {
     print "executing: $cmd\n";
     my $ret = system(@arg);
     if ($ret != 0) {
-        print STDERR "::warning::failed to execute $cmd";
+        print STDERR "::warning::failed to execute $cmd\n";
         $failed = 1;
     }
 }
