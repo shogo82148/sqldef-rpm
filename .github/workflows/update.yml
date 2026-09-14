@@ -19,7 +19,7 @@ jobs:
         uses: shogo82148/actions-github-app-token@23fb7b487bbb34ec0de312a6bb579dd98e217a45 # v1.3.2
       - uses: shogo82148/actions-setup-perl@ac3202722f5744e62a8fa3af3e1aaaebb08861f3 # v1.44.0
         with:
-          perl-version: "5.38"
+          perl-version: "5.44"
       - id: update
         name: update
         run: |
