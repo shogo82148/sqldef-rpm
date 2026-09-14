@@ -6,11 +6,13 @@ use warnings;
 use FindBin;
 use File::Basename;
 
-our @options = ('--dryrun');
+my @options = ('--dryrun');
 
 if (($ENV{GITHUB_REF_TYPE} || '') eq 'tag') {
     @options = ();
 }
+
+my $failed = 0;
 
 sub execute {
     my @arg = @_;
@@ -19,6 +21,7 @@ sub execute {
     my $ret = system(@arg);
     if ($ret != 0) {
         print STDERR "::warning::failed to execute $cmd";
+        $failed = 1;
     }
 }
 
@@ -48,3 +51,7 @@ upload "almalinux/10";
 upload "rockylinux/8";
 upload "rockylinux/9";
 upload "rockylinux/10";
+
+if ($failed) {
+    exit 1;
+}
