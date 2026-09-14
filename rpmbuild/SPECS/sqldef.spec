@@ -1,10 +1,10 @@
 %define goarch unknown
 
-%if %{_build_arch} == "x86_64"
+%if "%{_build_arch}" == "x86_64"
 %define goarch amd64
 %endif
 
-%if %{_build_arch} == "aarch64"
+%if "%{_build_arch}" == "aarch64"
 %define goarch arm64
 %endif
 
@@ -40,8 +40,11 @@ mkdir -p %{buildroot}/%{_bindir}
 %{__install} -m 755 -p psqldef %{buildroot}/%{_bindir}/psqldef
 %{__install} -m 755 -p sqlite3def %{buildroot}/%{_bindir}/sqlite3def
 
-%clean
-rm -rf %{buildroot}
+%check
+./mssqldef --help
+./mysqldef --help
+./psqldef --help
+./sqlite3def --help
 
 %files
 %defattr(-,root,root)
